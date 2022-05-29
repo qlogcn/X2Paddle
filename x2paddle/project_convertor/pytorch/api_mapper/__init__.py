@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from .learning_rate_scheduler import *
+from .my import *
 from .nn import *
 from .ops import *
 from .torchvision import *

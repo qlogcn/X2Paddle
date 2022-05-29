@@ -324,6 +324,8 @@ API_MAPPER = {
     "torch.einsum": ["paddlenlp.ops.einsum ", None],
     "torch.linspace": ["paddle.linspace", LinspaceMapper],
     "torch.as_tensor": ["paddle.to_tensor", ToTensorMapper],
+    # my=================================================
+    "torch.empty": ["paddle.empty", FuncEmpty],
 }
 INVALID_API = {
     "torch.channels_last": ["None", None],
